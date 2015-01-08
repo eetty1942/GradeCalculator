@@ -36,8 +36,8 @@ public class Main {
 			print.print_grade(grade);
 			
 		}
-		//print.print_grade(grade);
 		print.print_average(avg);
+		print.print_text(score_list, avg, grade_list);
 
 		scan.close();
 	}

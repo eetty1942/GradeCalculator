@@ -22,8 +22,6 @@ public class Calculator {
 		return temp_grade;
 	}
 	public float average(int score, int count){
-		//int sum =0;
-		//int averagevalue = 0;
 		sum = sum+score;
 		averagevalue = sum/count;
 		return averagevalue;
